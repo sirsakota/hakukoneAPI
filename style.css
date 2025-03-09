@@ -1,0 +1,57 @@
+body {
+  background-color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+}
+
+input[type="text"] {
+  width: 200px;
+  height: 50px;
+  padding: 12px 20px;
+  margin: 15px 10px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border-color: blueviolet;
+  border: 4px solid blueviolet;
+}
+
+button {
+  width: 50px;
+  height: 50px;
+  padding: 10px 20px;
+  margin: 15px 10px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  border-color: blueviolet;
+  border: 4px solid blueviolet;
+}
+
+img {
+  display: flex;
+  width: 300px;
+  height: 300px;
+}
+
+.main2 {
+  display: flex;
+  justify-content: center;
+  border-radius: 15px;
+  padding: 10px 30px;
+  margin: 10px;
+  border: 6px solid slategray;
+}
+
+.main3 {
+  display: flex;
+  justify-content: center;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.pokemontulos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
